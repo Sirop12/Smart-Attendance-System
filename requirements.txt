@@ -1,0 +1,8 @@
+opencv-python
+deepface
+SpeechRecognition
+pyautogui
+pygame
+pandas
+numpy
+openpyxl
