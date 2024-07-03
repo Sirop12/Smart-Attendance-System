@@ -19,7 +19,9 @@
 1. **Необходимые библиотеки**: Убедитесь, что у вас установлены библиотеки Python, такие как `cv2`, `pygame`, `speech_recognition` и другие, указанные в `requirements.txt`.
 
 2. **Запуск проекта**: Запустите скрипт `main.py`, чтобы начать использовать систему учета посещений.
-
+```bash
+pip install -r requirements.txt
+```
 ```bash
 python main.py
 ```
