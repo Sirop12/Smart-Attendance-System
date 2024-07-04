@@ -6,3 +6,4 @@ pygame
 pandas
 numpy
 openpyxl
+pyTelegramBotAPI
