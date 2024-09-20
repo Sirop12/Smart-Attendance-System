@@ -40,7 +40,8 @@ def find_person(face_img_path):
     cursor.execute('SELECT * FROM Users')
     users = cursor.fetchall()
     for user in users:
-        user_id, FstName, LstName, photo_path, trash1, trash2 = user
+        #user_id, FstName, LstName, photo_path, trash1, trash2 = user
+        user_id, FstName, LstName, photo_path = user[:4]
 
         try:
             result = DeepFace.verify(face_img_path, photo_path, model_name='Facenet512')
